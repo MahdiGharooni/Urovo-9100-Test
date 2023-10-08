@@ -25,6 +25,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="ir.co.pna.test_urovoi9100.PnContentProvider"
+            android:authorities="ir.co.pna.test_urovoi9100.provider.main"
+            android:exported="false" />
     </application>
 
 </manifest>

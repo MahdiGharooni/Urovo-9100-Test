@@ -14,8 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        Long tsLong = System.currentTimeMillis()/1000;
-        String ts = tsLong.toString();
-        ALog.writeTransaction(MainActivity.this, ts);
+        Statuses.insert(getApplicationContext(), AppConstant.DB_STATUS_ROW_ID, "0", "0", "0", "0", "0", "0", "0", "0", "1");
     }
 }

@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="256dp"
-        android:text="save file"
+        android:text="save in db"
         android:onClick="onClick"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
